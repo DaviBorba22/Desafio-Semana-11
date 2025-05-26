@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  border: 2px solid #c9c9c9;
+  padding: 30px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+#perfil {
+  display: flex;
+  width: 84%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #c9c9c9;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.Doce {
+  flex: 0 0 auto;
+  margin-top: 18px;
+}
+
+.hot {
+  font-size: 22px;
+  margin-top: 20px;
+  word-break: break-word;
+  text-align: left;
+  flex: 1 1 300px;
+}
+
+.icone {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  height: 39.2px;
+  margin: 10px;
+  border-radius: 5%;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: none;
+  gap: 12px;
+}
+
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  box-shadow: #000;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  border: 2px solid #c9c9c9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 250px;
+  min-height: 200px;
+  text-align: left;
+  background-color: white;
+}
+
+.repo-content {
+  flex-grow: 1;
+}
+
+.repo-title {
+  font-weight: bold;
+  font-size: 18px;
+  word-break: break-word;
+}
+
+.repo-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.repo-card button {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #c9c9c9;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.repo-card button:hover {
+  background-color: #eee;
+}
+
+@media (max-width: 600px) {
+  .pandequeijo {
+    font-size: 18px;
+  }
+}
